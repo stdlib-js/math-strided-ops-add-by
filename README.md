@@ -43,38 +43,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided-ops-add-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-addBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-add-by@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var addBy = require( 'path/to/vendor/umd/math-strided-ops-add-by/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-ops-add-by@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.addBy;
-})();
-</script>
+var addBy = require( '@stdlib/math-strided-ops-add-by' );
 ```
 
 #### addBy( N, x, strideX, y, strideY, z, strideZ, clbk\[, thisArg] )
@@ -245,13 +237,8 @@ addBy.ndarray( 3, x, 2, 1, y, -1, y.length-1, z, 1, 2, accessor );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
+```javascript
+var uniform = require( '@stdlib/random-base-uniform' ).factory;
 var filledarray = require( '@stdlib/array-filled' );
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var addBy = require( '@stdlib/math-strided-ops-add-by' );
@@ -275,11 +262,6 @@ console.log( z );
 
 addBy.ndarray( x.length, x, 1, 0, y, -1, y.length-1, z, 1, 0, accessor );
 console.log( z );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -367,7 +349,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/math/base/ops/add]: https://github.com/stdlib-js/stdlib
 
 </section>
 
