@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-ops-add": "^0.2.2",
+    "@stdlib/number-float64-base-add": "github:stdlib-js/number-float64-base-add#main",
     "@stdlib/strided-base-map-by2": "^0.2.2",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
   },
   "devDependencies": {
