@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-02-10)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by gururaj1512)_
+-   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
 </details>
@@ -27,8 +27,8 @@
 
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Gururaj Gurram
 -   Philipp Burckhardt
--   gururaj1512
 
 </section>
 
