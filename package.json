@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-float64-base-add": "github:stdlib-js/number-float64-base-add#main",
+    "@stdlib/number-float64-base-add": "^0.1.0",
     "@stdlib/strided-base-map-by2": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
@@ -90,7 +90,6 @@
     "callback",
     "clbk"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
